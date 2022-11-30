@@ -81,13 +81,6 @@ WSGI_APPLICATION = 'core.wsgi.application'
 # https://docs.djangoproject.com/en/3.0/ref/settings/#databases
 
 
-# Local Database setup - only is if you have MongoDB setup in your system
-DATABASES = {
-    'default': {
-        'ENGINE': 'djongo',
-        'NAME': env('MONGO_DATABASE'),
-    }
-}
 
 DATABASES = {
         'default': {
