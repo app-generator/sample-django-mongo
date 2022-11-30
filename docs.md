@@ -77,6 +77,8 @@ C:\> env\Scripts\activate
 To run the project all you need to do is run the command
 
  ```bash
+ $ python manage.py makemigrations
+ $ python manage.py migrate
  $ python manage.py runserver
  ````
 
