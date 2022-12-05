@@ -15,11 +15,18 @@ You need MongoDB setup locally or online as per your preference
 ## MongoDB Setup <br>
 ### **Local Server Setup**<br>
 **Step 1👉Local MongoDB database Setup**
-follow Mongodb Installation requirements to install it in your system.
+
+
 
 MongoDB Community Server Download Page [Here](https://www.mongodb.com/try/download/community).
 
 Download  and Install the server
+
+**Windows users**
+
+Go to MongoDb download page and download `.msi` installer package for windows.
+Run the installer and install complete package a
+
 
 On successful MongoDB Community server download, add `MONGO_DATABASE` and `MONGO_SERVER_CLUSTER_URL` in the `.env` file.
 
@@ -106,7 +113,5 @@ To run the project all you need to do is run the command
 Now open the browser and navigate to [localhost:8000](http://localhost:8000) and the application should be up and running.
 
 
-## Addons
-For manual Django and MongoDb intergration you can read the docs [Here](https://www.mongodb.com/compatibility/mongodb-and-django)
 
 

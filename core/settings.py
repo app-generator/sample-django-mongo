@@ -86,7 +86,7 @@ DATABASES = {
         'default': {
             'ENGINE': 'djongo',
             'NAME': env('MONGO_DATABASE'),
-            'ENFORCE_SCHEMA': False,
+            'ENFORCE_SCHEMA': True,
             'CLIENT': {
                 'host': env('MONGO_SERVER_CLUSTER_URL')
             }  
